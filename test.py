@@ -2,11 +2,21 @@ import jwt
 import datetime
 
 
+'''
+Scenario to-dos:
+1. Spoofing JWT header
+2. Accepting None-type
+3. Insufficiently random crypto?
+'''
+
+
+
+
 
 def generate_jwt(user_id):
     try:
         payload = {
-            'exp': datetime.datetime() + datetime.timedelta(days=0, minutes=60),
+            'exp': datetime.datetime() + datetime.timedelta(days=0, minutes=120),
             'iat': datetime.datetime(),
             'sub': user_id
         }
