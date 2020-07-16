@@ -1,2 +1,2 @@
 # jwt-goat
-Quick demo of common JWT authentication mistakes for training purposes idb
+Quick demo of common JWT authentication mistakes for training purposes
