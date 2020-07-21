@@ -34,6 +34,7 @@ token = generate_jwt('12345')
 
 token = str.encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzQ4ODgyMDAsImlhdCI6MTU3NDg4ODE5NSwic3ViIjoiMTIzNDUifQ.')
 
+test = 1
 
 
 
