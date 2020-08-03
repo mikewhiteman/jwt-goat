@@ -50,3 +50,13 @@ def decode_auth_token(auth_token):
 
 print(decode_auth_token(token))
 
+
+
+# vulnerabile pickle code for testing
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+person = Person("Test")
+print(pickle.dumps(person))
+
