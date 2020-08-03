@@ -1,2 +1,2 @@
 # jwt-goat
-Quick demo of common JWT authentication mistakes for training purposes. pr test2
+Quick demo of common JWT authentication mistakes for training purposes. pr test3
