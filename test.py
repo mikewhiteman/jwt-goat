@@ -57,6 +57,6 @@ class Person:
   def __init__(self, name):
     self.name = name
 
-person1 = Person("Test")
-print(pickle.dumps(person1)) 
+person2 = Person("Test")
+print(pickle.dumps(person2)) 
 
