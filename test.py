@@ -7,6 +7,7 @@ Scenario to-dos:
 1. Spoofing JWT header
 2. Accepting None-type
 3. Insufficiently random crypto?
+test14
 '''
 
 
@@ -49,4 +50,14 @@ def decode_auth_token(auth_token):
         return '401 Error:Invalid token'
 
 print(decode_auth_token(token))
+
+
+
+# vulnerabile pickle code for testing
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+person3 = Person("Test")
+print(pickle.dumps(person3)) 
 
